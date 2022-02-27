@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 NAME = 'respec'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 URL = 'https://github.com/SSripilaipong/respec'
 LICENSE = 'MIT'
 AUTHOR = 'SSripilaipong'
@@ -22,7 +22,7 @@ setup(
     author_email=EMAIL,
     description=None,
     long_description=None,
-    python_requires='>=3.10',
+    python_requires='>=3.7',
     install_requires=requirements,
     classifiers=[],
 )
