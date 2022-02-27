@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 NAME = 'respec'
-VERSION = '0.0.0'
+VERSION = '0.0.1'
 URL = 'https://github.com/SSripilaipong/respec'
 LICENSE = 'MIT'
 AUTHOR = 'SSripilaipong'
