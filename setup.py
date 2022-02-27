@@ -6,7 +6,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 NAME = 'respec'
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 URL = 'https://github.com/SSripilaipong/respec'
 LICENSE = 'MIT'
 AUTHOR = 'SSripilaipong'
@@ -15,7 +15,7 @@ EMAIL = 'SHSnail@mail.com'
 setup(
     name=NAME,
     version=VERSION,
-    packages=[package for package in setuptools.find_packages() if not package.startswith('tests.')],
+    packages=[package for package in setuptools.find_packages() if not package.startswith('tests')],
     url=URL,
     license=LICENSE,
     author=AUTHOR,
